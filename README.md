@@ -7,5 +7,5 @@ Thank you.
 Dated: May 15,2022~14:52:17
 
 Added a new file named myc.py (Short for MySQL_Connection.py), this can be used to quickly connect to mysql server from python shell.
-Note: Use 'from myc import exec' for better working, alternatively you can use 'import myc' in case you wanna use cursor object, either you can import both (myc and exec)
+Note: This package have several modules, one of it is an executable function 'exec', it can be called using 'from myc import exec' and to call the cursor object use 'from myc import mycrsr'. Alternatively you can import whole package then use these modules with package name.Thanks! 
 Dated: May 22,2022~07:19:43
