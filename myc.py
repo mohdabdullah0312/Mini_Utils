@@ -13,12 +13,12 @@ Ch= input("Do you want to chose any specific database?(Y/y): ")
 #Making our connection here
 if Ch=='Y' or Ch=='y':
 	DB=input("Please enter the name of the database: ")
-	mydb= msqltr.connect(host=HN,user=User,password=Pass,database=DB)
+	mycon= msqltr.connect(host=HN,user=User,password=Pass,database=DB)
 else:
-	mydb= msqltr.connect(host=HN,user=User,password=Pass)
+	mycon= msqltr.connect(host=HN,user=User,password=Pass)
 
 #Defining cursor object here
-mycrsr=mydb.cursor()
+mycrsr=mycon.cursor()
 
 #Defining a function to help user write shorter commands 
 def exec(x):
