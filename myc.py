@@ -25,7 +25,7 @@ def exec(x):
 	mycrsr.execute(x)
 	return
 
-print("Now you can interact with mysql terminal using any command inside exec('')!")
+print("Now you can interact with mysql terminal using any command inside exec('Your_Command')!")
 print("Happy Coding!")
 
 #Written by Abdullah on 2022-05-22-06:52:27
