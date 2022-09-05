@@ -17,6 +17,11 @@ if Ch=='Y' or Ch=='y':
 else:
 	mycon= msqltr.connect(host=HN,user=User,password=Pass)
 
+#Checking if connection was successful
+if mycon.is_connected():
+	print("Connection Successfull!")
+
+
 #Defining cursor object here
 mycrsr=mycon.cursor()
 
