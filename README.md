@@ -10,10 +10,10 @@ Python/
 ├── myc.py                     # Custom function test script
 ├── starting_func_call/
 │   ├── start.py               # Function call initiation
-│   └── strt                   # Likely compiled or temp file
+│   └── strt                   # To call start.py
 ├── toss/
 │   ├── toss.py                # Simulates a coin toss
-│   └── toss                   # Possibly a compiled version or CLI entry
+│   └── toss                   # To call toss.py
 └── README.md
 ```
 
