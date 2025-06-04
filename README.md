@@ -7,9 +7,9 @@ A small collection of experimental and utility-focused Python scripts created to
 ```
 Python/
 ├── clr.py                     # Clears the terminal screen
-├── myc.py                     # Custom function test script
+├── myc.py                     # Custom made python script to connect python with mysql user easily
 ├── starting_func_call/
-│   ├── start.py               # Function call initiation
+│   ├── start.py               # Just a personal tool to update 
 │   └── strt                   # To call start.py
 ├── toss/
 │   ├── toss.py                # Simulates a coin toss
@@ -23,10 +23,10 @@ Python/
   Clears the console/terminal screen using a system-specific command.
 
 - **`myc.py`**  
-  A personal test script used to execute and debug small logic functions or experiments.
+  A personal custom made python script to connect python with mysql user easily by just providing key details.
 
 - **`starting_func_call/start.py`**  
-  Demonstrates function calling and possibly dynamic imports or CLI interaction.
+  Just a personal tool I used to run on each startup to update in a single go.
 
 - **`toss/toss.py`**  
   Simulates a coin toss using Python's `random` module for basic probability testing.
@@ -44,8 +44,8 @@ Python/
 Clone the repo:
 
 ```bash
-git clone https://github.com/mohdabdullah0312/Python.git
-cd Python
+git clone https://github.com/mohdabdullah0312/Mini_Utils.git
+cd Mini_Utils
 ```
 
 Run any script individually:
